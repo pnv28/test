@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bakery Website</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Menu</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="hero">
+			<h1>Welcome to our Bakery</h1>
+			<p>Our bakery specializes in freshly baked breads and pastries.</p>
+			<a href="#" class="button">Order Now</a>
+		</section>
+		<section id="about">
+			<h2>About Us</h2>
+			<p>We are a family-owned bakery that has been serving the community for over 30 years. We pride ourselves on using only the finest ingredients and traditional baking techniques to create delicious breads and pastries.</p>
+		</section>
+		<section id="menu">
+			<h2>Our Menu</h2>
+			<ul>
+				<li><h3>Breads</h3><img src="bread.jpg"></li>
+				<li><h3>Pastries</h3><img src="pastry.jpg"></li>
+				<li><h3>Cakes</h3><img src="cake.jpg"></li>
+			</ul>
+		</section>
+		<section id="gallery">
+			<h2>Gallery</h2>
+			<div class="image-grid">
+				<img src="gallery1.jpg">
+				<img src="gallery2.jpg">
+				<img src="gallery3.jpg">
+				<img src="gallery4.jpg">
+				<img src="gallery5.jpg">
+				<img src="gallery6.jpg">
+			</div>
+		</section>
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<form action="#" method="post">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+				<input type="submit" value="Send">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Bakery. All rights reserved.</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
